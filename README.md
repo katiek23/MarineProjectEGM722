@@ -5,7 +5,7 @@ Basemap, boundaries and sightings data was provided by Ireland Marine Atlas and 
 Step 1: creates a map with locations/ boundaries of protected areas, fishing activity and particular species of interest.
 Step 2: provides insight into Marine Protected Areas and Fishing activity in the area
 
-This project aims to explore and plot cetacean (whale, dolphin, porpoise) sightings around the Irish Coast. Further, 
+This project aims to explore the benthic areas around Northern Ireland and Ireland, to plot the presences of seagrass beds, fishng activity and fish sightings in relation to marine protected areas around the Irish Coast. Further, 
 comparison to fishing activity can help determine whether an overlap in their distribution exists and whether this could have 
 negative consequences for population health.
 
