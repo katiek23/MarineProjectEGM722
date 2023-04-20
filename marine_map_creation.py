@@ -15,4 +15,6 @@ import matplotlib.lines as mlines
 from geopandas import GeoDataFrame
 from shapely.geometry import Point
 
-#Loading the data
+# Loading the data
+outline= gpd.read_file('project data/Ireland_shapefile/ie_100km.shp')  #outline of Ireland
+
