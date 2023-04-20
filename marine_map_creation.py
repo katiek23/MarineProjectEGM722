@@ -2,18 +2,17 @@
 
 # First lets import the functions and modules we need to create the map
 
-%matplotlib inline
 
-import os
-import pandas as pd
+import cartopy.crs as ccrs
 import geopandas as gpd
 import matplotlib.pyplot as plt
+import cartopy.feature as cfeature
 from cartopy.feature import ShapelyFeature
-import cartopy.crs as ccrs
 import matplotlib.patches as mpatches
-import matplotlib.lines as mlines
+import pandas as pd
 from geopandas import GeoDataFrame
 from shapely.geometry import Point
+
 
 # Loading the data
 outline= gpd.read_file('project data/Ireland_shapefile/ie_100km.shp')  #outline of Ireland
@@ -42,4 +41,40 @@ proj = ccrs.OSGB()
 #creating the map
 myFig = plt.figure(figsize=(10, 10))  # create a figure of size 10x10 (inches)
 myCRS = ccrs.UTM(29)  # create a reference system to transform data
-ax = plt.axes(facecolor='lightblue', projection=ccrs.Mercator())   #create an axes object in the figure,
+ax = plt.axes(facecolor='lightskyblue', projection=ccrs.Mercator())   #create an axes object in the figure,
+
+#adding features, outline of Ireland
+outline_feature= ShapelyFeature(outline['geometry'], myCRS, edgecolor='green'), facecolor='sgichartreuse')
+ax.add_feature(outline_feature)
+outline = outline.to_crs("ESPG:2157") #CRS relevant to Ireland
+xmin, ymin, xmax, ymax = outline.total_bounds
+
+# Adding counties to map
+counties_feature = ShapelyFeature(counties['geometry'], myCRS, edgecolor='black', facecolor='sgichartreuse', linewidth=0.5)
+ax.add_feature(counties_feature)
+
+# Add marine economic exclusive zone boundary to map
+eez_feature = ShapelyFeature(marine_eez['geometry'], myCRS, edgecolor= 'blue4', linewidth=2
+ax.add_feature(eez_feature)
+
+# Add Northern Ireland marine protected areas (MPA) to map
+nimpa_feature = ShapelyFeature(ni_mpa['geometry'], myCRS, edgecolor= 'hotpink1', facecolor= 'hotpink1')
+ax.add_feature = ShapelyFeature(nimpa_feature)
+
+# Add Irish Sea marine protected areas to map
+irishmpa_feature = ShapelyFeature(irish_sea_mpa['geometry'], myCRS, edgecolor= 'hotpink1', facecolor= 'hotpink1')
+ax.add_feature = ShapelyFeature(irishmpa_feature)
+
+# Add areas of dredge fishing to map
+dredgefish_feature = ShapelyFeature(dredge_fishing['geometry'], myCRS, edgecolor='orangered1', facecolor='orangered1')
+ax.add_feature =ShapelyFeature(dredgefish_feature)
+
+#Add areas of bottom trawling fishing to map
+trawlfish_feature = ShapelyFeature(bottom_trawl_fishing['geometry'], myCRS, edgecolor='orangered4', facecolor='orangered4')
+ax.add_feature =ShapelyFeature(dredgefish_feature)
+
+# Add seagrass distribution to map
+
+
+
+
