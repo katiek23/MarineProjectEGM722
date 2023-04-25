@@ -13,7 +13,7 @@ If you have any queries regarding this project, please contact Kerr-K22@ulster.a
 
 **Installation and Set Up instructions**
 
-The following code has been designed to be run in Integrated Development Environment (IDE) was created in PyCharm. 
+The following code has been designed to be run in Integrated Development Environment (IDE) such as PyCharm. 
 It is therefore suggested that PyCharm Community Edition is used to run the code as it has not been tested across other
 environments.
 The code, relevant data files, dependencies for installation and repository can be accessed here: [katiek23 repository] (https://github.com/katiek23/MarineProjectEGM722).
