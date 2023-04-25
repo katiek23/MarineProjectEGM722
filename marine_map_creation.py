@@ -14,7 +14,7 @@ from shapely.geometry import Point
 
 
 # Loading the data
-outline = gpd.read_file('project data/OSNI_outline/OSNI_NI_outline.shp')  # outline of Ireland
+outline = gpd.read_file('project data/IRL_adm/IRL_adm0.shp')  # outline of Ireland
 counties = gpd.read_file('project data/Counties_-_National_Statutory_Boundaries_-_2019/Counties___Ungen_2019.shp')  # counties boundaries
 marine_eez = gpd.read_file('project data/Designated_Maritime_Boundary_Continental_Shelf/Designated_Maritime_Boundary_Continental_Shelf.shp')  # marine exclusive zone
 ni_mpa = gpd.read_file('project data/Marine_Protected_Areas_MPAs_within_Northern_Ireland_s_marine_plan_extent/Marine_Protected_Areas_within_Marine_Plan_Extent.shp')  # Northern ireland MPA
@@ -36,6 +36,7 @@ xmin, ymin, xmax, ymax = outline.total_bounds
 ax.add_feature(outline_feature)
 outline = outline.to_crs("EPSG:2157")   # CRS relevant to Ireland
 
+# using the boundary of the shapefile features, zoom the map to our area of interest
 ax.set_extent([xmin-5000, xmax+5000, ymin-5000, ymax+5000], crs=myCRS)
 
 
@@ -65,6 +66,29 @@ ax.add_feature(dredgefish_feature)
 
 plt.show()
 
+# Create map legend
+# generate matplotlib handles to create a legend of the features we put in our map.
+def generate_handles(labels, colors, edge='k', alpha=1):
+    lc = len(colors)  # get the length of the color list
+    handles = []
+    for i in range(len(labels)):
+        handles.append(mpatches.Rectangle((0, 0), 1, 1, facecolor=colors[i % lc], edgecolor=edge, alpha=alpha))
+    return handles
+
+# Create map labels
+ax.set_title('Map of Ireland Marine Protected Areas and Fishing Zones'), ax.set_xlabel('Longitude'), ax.set_ylabel('Latitude')
+
+# adding grid lines
+gridlines = ax.gridlines(draw_labels=True,
+                         xlocs=[-7.5, -6.5, -5.5, -4.5, -3.5],
+                         ylocs=[10, 11, 9, 8, 7, 6, 5, 4])
+gridlines.left_labels = True # turn off the left-side labels
+gridlines.right_labels = False #turn off the right side labels
+gridlines.bottom_labels = False # turn off the bottom labels
 
 
+# Set the extent of the map to zoom in on Ireland
+ax.set_extent([-10, -5, 51.5, 55], crs=ccrs.PlateCarree())
 
+
+plt.show()
