@@ -14,7 +14,7 @@ from shapely.geometry import Point
 
 
 # Loading the data
-outline = gpd.read_file('project data/Ireland_shapefile/ie_100km.shp')  # outline of Ireland
+outline = gpd.read_file('project data/OSNI_Outline/ie_100km.shp')  # outline of Ireland
 counties = gpd.read_file('project data/Counties_-_National_Statutory_Boundaries_-_2019/Counties___Ungen_2019.shp')  # counties boundaries
 marine_eez = gpd.read_file('project data/Designated_Maritime_Boundary_Continental_Shelf/Designated_Maritime_Boundary_Continental_Shelf.shp')  # marine exclusive zone
 ni_mpa = gpd.read_file('project data/Marine_Protected_Areas_MPAs_within_Northern_Ireland_s_marine_plan_extent/Marine_Protected_Areas_within_Marine_Plan_Extent.shp')  # Northern ireland MPA
