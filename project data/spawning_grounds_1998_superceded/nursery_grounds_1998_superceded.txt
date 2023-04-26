@@ -1,0 +1,157 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: REQUIRED: The name of an organization or individual that developed the data set.
+      Publication_Date: REQUIRED: The date when the data set is published or otherwise made available for release.
+      Title: nursery_grounds_1998_superceded
+      Geospatial_Data_Presentation_Form: vector digital data
+      Online_Linkage: \\lowfile3\c3446$\MB102_Spawning and Nursery Areas\4_Spawning ground outputs\Final layers\spawning_grounds_1998_superceded.shp
+  Description:
+    Abstract:
+      Fisheries Sensitivity Maps in British Waters
+      --------------------------------------------
+
+      The layers in this file have now been superceded by layers described in the following report :
+
+      Ellis, J.R., Milligan, S., Readdy, L., South, A., Taylor, N. and Brown, M. 2010. Mapping the spawning and nursery grounds of selected fish for spatial planning. Report to the Department of Environment, Food and Rural Affairs from Cefas. Defra Contract No. MB5301
+
+      The original nursery ground maps in this layer were compiled from data collected and collated by Fisheries Research Service, Aberdeen, and CEFAS Lowestoft, and form part of a comprehensive study financed by The Scottish Office and MAFF in 1998.
+
+      Selected spawning and nursery grounds in the Irish Sea were updated in 2003 as part of the JNCC Irish Sea Pilot.
+    Purpose: To provide an indication of the location of nursery grounds of selected marine commercial fish species within British waters.
+    Supplemental_Information:
+      Coull, K.A., Johnstone, R., and S.I. Rogers. 1998. Fisheries Sensitivity Maps in British Waters. Published and distributed by UKOOA Ltd, 9 Albyn Terrace, Aberdeen
+
+      Polygons clipped to ESRI 1:25,000 scale Europe coastline.
+
+      For continuity, some spawning and nursery grounds have been mapped beyond UK waters.
+
+      Now superceded by :
+
+      Ellis, J.R., Milligan, S., Readdy, L., South, A., Taylor, N. and Brown, M. 2010. Mapping the spawning and nursery grounds of selected fish for spatial planning. Report to the Department of Environment, Food and Rural Affairs from Cefas. Defra Contract No. MB5301
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.
+    Currentness_Reference: 2003
+  Status:
+    Progress: REQUIRED: The state of the data set.
+    Maintenance_and_Update_Frequency: REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -14.995688
+      East_Bounding_Coordinate: 10.946060
+      North_Bounding_Coordinate: 63.988098
+      South_Bounding_Coordinate: 44.076477
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.
+      Theme_Keyword: Fish
+      Theme_Keyword: UK
+      Theme_Keyword: Nursery grounds
+      Theme_Keyword: marine spatial planning
+      Theme_Keyword: impact assessment
+      Theme_Keyword: Cefas
+    Place:
+      Place_Keyword: UK waters
+  Access_Constraints: REQUIRED: Restrictions and legal prerequisites for accessing the data set.
+  Use_Constraints: REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770
+Data_Quality_Information:
+  Lineage:
+    Process_Step:
+      Process_Description: Dataset copied.
+      Source_Used_Citation_Abbreviation: \\PC2940\D$\Spawning\SpawningGrounds.mdb
+      Process_Date: 20100216
+      Process_Time: 11030800
+    Process_Step:
+      Process_Description: Dataset copied.
+      Source_Used_Citation_Abbreviation:
+      Process_Date: 20100312
+      Process_Time: 13360200
+    Process_Step:
+      Process_Description: Dataset moved.
+      Source_Used_Citation_Abbreviation: \\Lowfile3\c3446$\MB102_Spawning and Nursery Areas\Spawning ground maps (Mary)\Coull_et_all_Spawning_grounds
+      Process_Date: 20100312
+      Process_Time: 14000900
+    Process_Step:
+      Process_Description: Dataset copied.
+      Source_Used_Citation_Abbreviation: C:\andy\arcGISwork\Final layers Andy\Coull_et_all_Spawning_grounds
+    Process_Step:
+      Process_Description: Dataset copied.
+      Source_Used_Citation_Abbreviation: C:\andy\arcGISwork\Final layers Andy\march09layers\spawning_grounds_1998_superceded
+    Process_Step:
+      Process_Description: Metadata imported.
+      Source_Used_Citation_Abbreviation: C:\DOCUME~1\abs00\LOCALS~1\Temp\xml6334.tmp
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 1160
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: 0.000000
+      Longitude_Resolution: 0.000000
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: D_WGS_1984
+      Ellipsoid_Name: WGS_1984
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257224
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: nursery_grounds_1998_superceded
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Species
+      Attribute_Definition: species common name
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: OBJECTID
+Distribution_Information:
+  Resource_Description: Downloadable Data
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Transfer_Size: 6.826
+Metadata_Reference_Information:
+  Metadata_Date: 20100819
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: REQUIRED: The organization responsible for the metadata information.
+        Contact_Person: REQUIRED: The person responsible for the metadata information.
+      Contact_Address:
+        Address_Type: REQUIRED: The mailing and/or physical address for the organization or individual.
+        City: REQUIRED: The city of the address.
+        State_or_Province: REQUIRED: The state or province of the address.
+        Postal_Code: REQUIRED: The ZIP or other postal code of the address.
+      Contact_Voice_Telephone: REQUIRED: The telephone number by which individuals can speak to the organization or individual.
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile

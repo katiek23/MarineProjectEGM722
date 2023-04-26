@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">nursery_grounds_1998_superceded</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink>\\lowfile3\c3446$\MB102_Spawning and Nursery Areas\4_Spawning ground outputs\Final layers\spawning_grounds_1998_superceded.shp</onlink>
+				<ftname Sync="TRUE">nursery_grounds_1998_superceded</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Fisheries Sensitivity Maps in British Waters
+--------------------------------------------
+
+The layers in this file have now been superceded by layers described in the following report :
+
+Ellis, J.R., Milligan, S., Readdy, L., South, A., Taylor, N. and Brown, M. 2010. Mapping the spawning and nursery grounds of selected fish for spatial planning. Report to the Department of Environment, Food and Rural Affairs from Cefas. Defra Contract No. MB5301
+
+The original nursery ground maps in this layer were compiled from data collected and collated by Fisheries Research Service, Aberdeen, and CEFAS Lowestoft, and form part of a comprehensive study financed by The Scottish Office and MAFF in 1998.
+
+Selected spawning and nursery grounds in the Irish Sea were updated in 2003 as part of the JNCC Irish Sea Pilot.</abstract>
+			<purpose>To provide an indication of the location of nursery grounds of selected marine commercial fish species within British waters.</purpose>
+			<supplinf>
+Coull, K.A., Johnstone, R., and S.I. Rogers. 1998. Fisheries Sensitivity Maps in British Waters. Published and distributed by UKOOA Ltd, 9 Albyn Terrace, Aberdeen
+
+Polygons clipped to ESRI 1:25,000 scale Europe coastline.
+
+For continuity, some spawning and nursery grounds have been mapped beyond UK waters.
+
+Now superceded by :
+
+Ellis, J.R., Milligan, S., Readdy, L., South, A., Taylor, N. and Brown, M. 2010. Mapping the spawning and nursery grounds of selected fish for spatial planning. Report to the Department of Environment, Food and Rural Affairs from Cefas. Defra Contract No. MB5301
+</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>2003</current>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-14.995688</westbc>
+				<eastbc Sync="TRUE">10.946060</eastbc>
+				<northbc Sync="TRUE">63.988098</northbc>
+				<southbc Sync="TRUE">44.076477</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-14.995688</leftbc><rightbc Sync="TRUE">10.946060</rightbc><bottombc Sync="TRUE">44.076477</bottombc><topbc Sync="TRUE">63.988098</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>Fish</themekey>
+				<themekey>UK</themekey><themekey>Nursery grounds</themekey><themekey>marine spatial planning</themekey><themekey>impact assessment</themekey><themekey>Cefas</themekey></theme>
+			<place><placekey>UK waters</placekey></place></keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused>\\PC2940\D$\Spawning\SpawningGrounds.mdb</srcused>
+				<procdate>20100216</procdate>
+				<proctime>11030800</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused></srcused>
+				<procdate>20100312</procdate>
+				<proctime>13360200</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset moved.</procdesc>
+				<srcused>\\Lowfile3\c3446$\MB102_Spawning and Nursery Areas\Spawning ground maps (Mary)\Coull_et_all_Spawning_grounds</srcused>
+				<procdate>20100312</procdate>
+				<proctime>14000900</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused>C:\andy\arcGISwork\Final layers Andy\Coull_et_all_Spawning_grounds</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused>C:\andy\arcGISwork\Final layers Andy\march09layers\spawning_grounds_1998_superceded</srcused>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\abs00\LOCALS~1\Temp\xml6334.tmp</srcused><date Sync="TRUE">20100316</date><time Sync="TRUE">16131000</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="nursery_grounds_1998_superceded">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">1160</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="nursery_grounds_1998_superceded"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">1160</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres Sync="TRUE">0.000000</latres>
+				<longres Sync="TRUE">0.000000</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="nursery_grounds_1998_superceded">
+			<enttyp>
+				<enttypl Sync="TRUE">nursery_grounds_1998_superceded</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">1160</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Species</attrlabl>
+				<attrdef>species common name</attrdef>
+				<attalias Sync="TRUE">Species</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><attalias Sync="TRUE">Shape</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><attalias Sync="TRUE">OBJECTID</attalias><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>6.826</transize>
+					<dssize Sync="TRUE">11.880</dssize></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20100819</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{7D833F55-7B8A-48D5-8929-227112751FAF}</MetaID><CreaDate>20100316</CreaDate><CreaTime>16131000</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20100819</SyncDate><SyncTime>12473200</SyncTime><ModDate>20100819</ModDate><ModTime>12473200</ModTime></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">nursery_grounds_1998_superceded</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-14.995688</westBL><eastBL Sync="TRUE">10.94606</eastBL><northBL Sync="TRUE">63.988098</northBL><southBL Sync="TRUE">44.076477</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-14.995688</westBL><eastBL Sync="TRUE">10.94606</eastBL><northBL Sync="TRUE">63.988098</northBL><southBL Sync="TRUE">44.076477</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\Lowfile3\c3446$\MB102_Spawning and Nursery Areas\3_Nursery ground outputs\Final layers\nursery_grounds_1998_superceded.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">11.880</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_WGS_1984</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="nursery_grounds_1998_superceded"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1160</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20100819</mdDateSt></metadata>
