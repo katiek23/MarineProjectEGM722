@@ -127,4 +127,4 @@ gridlines.bottom_labels = False  # turn off the bottom labels
 plt.show()
 
 # Use this code below when you are ready to save as a .png file!
-# myFig.savefig('map.png', bbox_inches='tight', dpi=300)
+myFig.savefig('map.png', bbox_inches='tight', dpi=300)
