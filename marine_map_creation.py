@@ -38,7 +38,7 @@ def scale_bar(ax, location=(0.92, 0.95)):
 
 
 # Loading the data
-outline = gpd.read_file('project data/OSNI_Open_Data_-_Largescale_Boundaries_-_NI_Outline.shp')  # outline of Northern Ireland
+outline = gpd.read_file('project data/OSNI_Open_Data_-_Largescale_Boundaries_-_NI_Outline/OSNI_Open_Data_-_Largescale_Boundaries_-_NI_Outline.shp')  # outline of Northern Ireland
 counties = gpd.read_file('project data/Counties_-_National_Statutory_Boundaries_-_2019/Counties___Ungen_2019.shp')  # counties boundaries
 seagrass_habitat = gpd.read_file('project data/SubtidalAndIntertidalSeagrassBedsNI.shp')  # Seagrass habitats
 ni_mpa = gpd.read_file('project data/Marine_Protected_Areas_within_Marine_Plan_Extent.shp')  # Northern ireland MPA
