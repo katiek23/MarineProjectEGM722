@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Subtidal and Intertidal Seagrass Beds</title>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The subtidal polygons were digitised around survey data in which Zostera marina (subtidal seagrass) beds were identified from dive and towed camera surveys. The boundary was digitised according to SAC guidance using the minimum number of vectors/lines and staying as close as possible to the feature of interest, but including a boundary of approximately 2.5 times the maximum depth (for navigation purposes).  Further survey work is planned to provide more ground truthing points in Ballyhenry Bay and a second seagrass bed was identified in Castleward bay but its extent was not mapped.The digitised polygons encompassing intertidal seagrass (Zostera subgroup zosterella noltei) mapped using high spec GPS data-logger (TRIMBLE) on foot and when possible by Hovercraft provided by the Environment Protection Agency (EPA) in the Republic of Ireland. This work was done by the Marine Monitoring and Assessment Team and was repeated over a number of years to detect change in area, density or number of species however this layer only shows the latest data. MMAT have added that due to health and safety reasons the Larne Lough and Carlingford Lough surveys are not complete, and all the seagrass in these areas was not mapped.  They will be prioritised this year and it is hoped that the remaining areas will be surveyed using a drone and/or hovercraft in 2020.</abstract>
+            <purpose>Summary
+Digitised polygons encompassing intertidal seagrass (Zostera subgroup zosterella noltei) were mapped using high spec GPS data-logger (TRIMBLE) on foot...</purpose>
+        </descript>
+        <status>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-7.27988121050442</westbc>
+                <eastbc>-4.79542874358095</eastbc>
+                <northbc>55.3920914392017</northbc>
+                <southbc>53.9474717892898</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Inter-tidal Zostera beds</themekey>
+                <themekey>Seagrass</themekey>
+                <themekey>Zostera subgroup zosterella noltei</themekey>
+                <themekey>WFD monitoring</themekey>
+                <themekey>Subtidal seagrass beds</themekey>
+                <themekey>OSPAR Threatened and/or Declining Habitats</themekey>
+                <themekey>Northern Ireland Priority Habitat</themekey>
+                <themekey>Wildlife Order</themekey>
+                <themekey>Zostera subgroup Zostera marina</themekey>
+                <themekey>Protected Feature</themekey>
+                <themekey>Marine Protected Area</themekey>
+                <themekey>Carbon sink</themekey>
+                <themekey>Climate change indicator</themekey>
+                <themekey>Priority Marine Feature</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>contains Ordnance Survey of Northern Ireland information licensed under the Open Government Licence v3.0. Per the National Archive guidance on OGL found at: Open Government Licence (nationalarchives.gov.uk)</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>DAERA Marine and Fisheries Division</cntorg>
+                    <cntper>Data Manager</cntper>
+                </cntorgp>
+                <cntpos>Data Contact</cntpos>
+            </cntinfo>
+        </ptcontac>
+        <datacred>DAERA Marine and Fisheries Division; EPA; contains Ordnance Survey of Northern Ireland information licensed under the Open Government Licence v3.0. </datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20210223</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>DAERA Marine and Fisheries Division</cntorg>
+                    <cntper>Data Manager</cntper>
+                </cntorgp>
+                <cntpos>Data Contact</cntpos>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
