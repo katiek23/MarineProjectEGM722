@@ -67,8 +67,8 @@ outline = outline.to_crs("EPSG:2157")   # CRS relevant to Ireland
 num_species = len(nursery_grounds.Species.unique())
 print('Number of unique features: {}'.format(num_species))
 
-species_colors = ['seagreen', 'mediumspringgreen', 'lightseagreen', 'mediumseagreen', 'mediumaquamarine', 'mediumturquoise'
-                  'aquamarine', 'teal', 'darkcyan', 'cyan', 'g', 'lightgreen', 'palegreen', 'turquoise','c']
+species_colors = ['seagreen', 'mediumspringgreen', 'lightseagreen', 'mediumseagreen', 'mediumaquamarine', 'mediumturquoise',
+                  'aquamarine', 'teal', 'darkcyan', 'cyan', 'g', 'lightgreen', 'palegreen', 'turquoise']
 
 # get a list of unique species names within fish nursery grounds
 species_names = list(nursery_grounds.Species.unique())
@@ -77,7 +77,7 @@ species_names.sort() # sort the counties alphabetically by name
 # add fish nursery ground areas to the map using the colors picked above
 
 for ii, name in enumerate(species_names):
-    feat = ShapelyFeature(nursery_grounds.loc[nursery_grounds['SpeciesName'] == name, 'geometry'],
+    feat = ShapelyFeature(nursery_grounds.loc[nursery_grounds['Species'] == name, 'geometry'],
                           myCRS, edgecolor='k', facecolor=species_colors[ii], linewidth=1, alpha=0.25)
     ax.add_feature(feat)
 
