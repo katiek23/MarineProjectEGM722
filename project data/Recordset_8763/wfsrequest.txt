@@ -1,0 +1,1 @@
+http://10.10.14.9:8080/geoserver/wfs?request=GetFeature&service=wfs&version=1.0.0&typename=MDRLive%3aRecordset_8763&outputformat=shape-zip&srsName=EPSG%3a4326

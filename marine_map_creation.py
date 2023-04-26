@@ -43,7 +43,7 @@ counties = gpd.read_file('project data/Counties_-_National_Statutory_Boundaries_
 seagrass_habitat = gpd.read_file('project data/Subtidal_and_Intertidal_Seagrass_Beds/SubtidalAndIntertidalSeagrassBedsNI.shp')  # Seagrass habitats
 ni_mpa = gpd.read_file('project data/Marine_Protected_Areas_(MPAs)_within_Northern_Ireland_s_marine_plan_extent/Marine_Protected_Areas_within_Marine_Plan_Extent.shp')  # Northern ireland MPA
 nursery_grounds = gpd.read_file('project data/spawning_grounds_1998_superceded/nursery_grounds_1998_superceded.shp')  # Fish nursery grounds
-fishing_activity = gpd.read_file('project data/Recordset_8763Polygon.shp')  # Inshore fishing activity in  Irish Sea
+fishing_activity = gpd.read_file('project data/Recordset_8763/Recordset_8763Polygon.shp')  # Inshore fishing activity in  Irish Sea
 
 
 # Define the map projection

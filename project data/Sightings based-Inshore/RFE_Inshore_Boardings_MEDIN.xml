@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This metadata file was translated from ESRI-ISO metadata using the EsriIsoToMedin xslt version 0.2. Author: Peter Edmonds, SeaZone Solutions Limited.-->
+<!--All elements where the relevent content was not found in the ESRI ISO metadata are encoded with the following attribute: nilreason="missing" -->
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--Metadata Unique File Identifier-->
+  <gmd:fileIdentifier>
+    <gco:CharacterString>2EAA9CDF-3FB2-4D20-85BE-0A74EE58A164</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <!--Metadata Language-->
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">eng</gmd:LanguageCode>
+  </gmd:language>
+  <!--Hierarchy Level (scope of the metadata)-->
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <!--Metadata contact information-->
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Koen Vanstaen</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Cefas</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Senior Seabed Mapper</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>01502 524489</gco:CharacterString>
+              </gmd:voice>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Cefas, Pakefield Road</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Lowestoft</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Suffolk</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>NR33 0HT</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>United Kingdom</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>koen.vanstaen@cefas.co.uk</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <!--Metadata date stamp-->
+  <gmd:dateStamp>
+    <gco:Date>2011-03-14</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>MEDIN Discovery Metadata Standard</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>2.3</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <!--Spatial Reference System information-->
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>urn:ogc:def:crs:EPSG::4326</gco:CharacterString>
+          </gmd:code>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification id="ResourceIdentifier_2EAA9CDF-3FB2-4D20-85BE-0A74EE58A164">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <!--Title of the dataset-->
+          <gmd:title>
+            <gco:CharacterString>RFE_Inshore_Boardings</gco:CharacterString>
+          </gmd:title>
+          <!--Alternative title for the dataset-->
+          <gmd:alternateTitle>
+            <gco:CharacterString>Relative fishing effort derived from boardings data</gco:CharacterString>
+          </gmd:alternateTitle>
+          <!--Dates for the creation, revision or publication of the dataset-->
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2010-07-31</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date gco:nilReason="missing" />
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <!--Resource Identifier-->
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>ResourceIdentifier_2EAA9CDF-3FB2-4D20-85BE-0A74EE58A164</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <!--Abstract: A brief description of the contents of the dataset-->
+      <gmd:abstract>
+        <gco:CharacterString>Fishing effort within 6 nm of the English and Welsh coast. Derived from boardings data from Cornwall and North Western &amp; North Wales Sea Fisheries Committees. Fishing activities presented by type of fishing gear, vessel length, vessel power and overall. Data from 2007 and 2009 and grided onto 0.05 deg. in longitude by 0.025 deg. in latitude cells (approx. 5.5 by 5 km). For more details please see the Cefas report to Defra associated with this work (http://randd.defra.gov.uk/Default.aspx?Menu=Menu&amp;Module=More&amp;Location=None&amp;ProjectID=16415&amp;FromSearch=Y&amp;Publisher=1&amp;SearchText=mb010&amp;SortString=ProjectCode&amp;SortOrder=Asc&amp;Paging=10)
+
+
+District: Name of nearest Sea Fisheries Committee area.
+SUM_DR_N: Sum of the number of dredging vessels sighted in 2007 and 2009 normalised by the number of patrol vessel visits in 2007 and 2009 for this grid cell
+SUM_TR_N: Sum of the number of trawling vessels sighted in 2007 and 2009 normalised by the number of patrol vessel visits in 2007 and 2009 for this grid cell
+SUM_NT_N: Sum of the number of netting vessels sighted in 2007 and 2009 normalised by the number of patrol vessel visits in 2007 and 2009 for this grid cell
+SUM_PT_N: Sum of the number of potting vessels sighted in 2007 and 2009 normalised by the number of patrol vessel visits in 2007 and 2009 for this grid cell
+SUM_LN_N: Sum of the number of lining and commercial angling vessels sighted in 2007 and 2009 normalised by the number of patrol vessel visits in 2007 and 2009 for this grid cell
+SUM_ST_N: Sum of the number of vessels sighted in 2007 and 2009 using static gears normalised by the number of patrol vessel visits in 2007 and 2009 for this grid cell
+SUM_MB_N: Sum of the number of vessels sighted in 2007 and 2009 using mobile gears normalised by the number of patrol vessel visits in 2007 and 2009 for this grid cell</gco:CharacterString>
+      </gmd:abstract>
+      <!--Data Contact Information-->
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Koen Vanstaen</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Cefas</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Senior Seabed Mapper</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>01502 524489</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Cefas, Pakefield Road</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Lowestoft</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Suffolk</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>NR33 0HT</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>United Kingdom</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>koen.vanstaen@cefas.co.uk</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Carole Kelly</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Defra</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Marine Biodiversity R&amp;D Programme Manager</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>020 7238 5285</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Department for Environment Food and Rural Affairs, Marine and Fisheries Science Unit, Area 2D, Nobel House, 17 Smith Square</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>London</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>SW1P 3JR</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>United Kingdom</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>Carole.Kelly@defra.gsi.gov.uk</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName gco:nilReason="missing" />
+          <gmd:organisationName gco:nilReason="missing" />
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress gco:nilReason="missing" />
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <!--Distributor Contact Information-->
+      <!--Maintentance and update frequency-->
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown">unknown</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <!--Resource Format-->
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>Shapefile</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString></gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
+      <!--NERC processing instruction for the keywords-->
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://vocab.ndg.nerc.ac.uk/term/N010/0" xlink:title="NERC OAI Harvesting">NDGO0001</gmx:Anchor>
+          </gmd:keyword>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <!--Keywords-->
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Inshore</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Fisheries</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Fishing activity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Sea Fisheries Committee</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Intensity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>MCZ</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Planning</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:thesaurusName gco:nilReason="missing" />
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <!--Resource Constraints-->
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation gco:nilReason="missing" />
+          <gmd:accessConstraints gco:nilReason="missing" />
+          <gmd:useConstraints gco:nilReason="missing" />
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <!--Sptaial Resolution-->
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:distance gco:nilReason="missing" />
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <!--Metadata Language-->
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">eng</gmd:LanguageCode>
+      </gmd:language>
+      <!--Character set for the dataset-->
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <!--Topic Category -->
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <!--Extent - by Identifier-->
+          <!--Geographic Extent-->
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-5.85</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-2.9</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>49.9</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>54.1</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <!--Temporal Extent-->
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="SZ-MEDIN-ESRI2MEDINXSLT-ID0EBAAAAAGTA">
+                  <gml:beginPosition>2007-01-01</gml:beginPosition>
+                  <gml:endPosition>2009-12-31</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <!--Supplemental and Miscillaneous information related to the dataset-->
+      <gmd:supplementalInformation>
+        <gco:CharacterString>This information was extracted from ESRIISO metadata (incorporating ISO and FGDC elements) using the EsriIsoToMedin xslt version 1.0;ISO Resource created in environment: Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.4000</gco:CharacterString>
+      </gmd:supplementalInformation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <!--Scope of the data quality information-->
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <!--Lineage statement-->
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Created from patrol vessel tracks and boardings of fishing vessels provided by the following Sea Fisheries Committees: Cornwall, North Western and North Wales.  Data analysis undertaken by Cefas.</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
