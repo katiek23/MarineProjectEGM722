@@ -11,8 +11,9 @@ import matplotlib.patches as mpatches
 import pandas as pd
 from geopandas import GeoDataFrame
 from shapely.geometry import Point
+import folium
 
-plt.ion()  # make the plotting interactive
+
 
 # generate matplotlib handles to create a legend of the features we put in our map.
 def generate_handles(labels, colors, edge='k', alpha=1):
@@ -45,14 +46,10 @@ ni_mpa = gpd.read_file('project data/Marine_Protected_Areas_(MPAs)_within_Northe
 nursery_grounds = gpd.read_file('project data/spawning_grounds_1998_superceded/nursery_grounds_1998_superceded.shp')  # Fish nursery grounds
 fishing_activity = gpd.read_file('project data/Recordset_8763/Recordset_8763Polygon.shp')  # Inshore fishing activity in  Irish Sea
 
-
-# Define the map projection
-proj = ccrs.OSGB()
-
 # creating the map
-myFig = plt.figure(figsize=(10, 10))  # create a figure of size 10x10 (inches)
+myFig = plt.figure(figsize=(9, 9))  # create a figure of size 10x10 (inches)
 myCRS = ccrs.UTM(29)  # create a reference system to transform data
-ax = plt.axes(projection=ccrs.Mercator())   # create an axes object in the figure,
+ax = plt.axes(projection=myCRS)   # create an axes object in the figure,
 
 # adding features, outline of Northern Ireland
 outline_feature = ShapelyFeature(outline['geometry'], myCRS, edgecolor='green', facecolor='burlywood')
@@ -61,7 +58,7 @@ ax.add_feature(outline_feature)
 outline = outline.to_crs("EPSG:2157")   # CRS relevant to Ireland
 
 # using the boundary of the shapefile features, zoom the map to our area of interest
-#  ax.set_extent([xmin-5000, xmax+5000, ymin-5000, ymax+5000], crs=myCRS)
+ax.set_extent([xmin-10, xmax+10, ymin-10, ymax+10], crs=myCRS)
 
 # get the number of unique fish species we have in each of the nursery grounds in the dataset
 num_species = len(nursery_grounds.Species.unique())
@@ -93,7 +90,7 @@ ax.add_feature(seagrass_feature)
 nimpa_feature = ShapelyFeature(ni_mpa['geometry'], myCRS, edgecolor='magenta', facecolor='magenta')
 ax.add_feature(nimpa_feature)
 
-# Add areas of inshorefishing activity to map
+# Add areas of inshore fishing activity to map
 inshorefishing_feature = ShapelyFeature(fishing_activity['geometry'], myCRS, edgecolor='orange', facecolor='orange')
 ax.add_feature(inshorefishing_feature)
 
@@ -104,14 +101,14 @@ ax.add_feature(inshorefishing_feature)
 
 species_handles = generate_handles(nursery_grounds.Species.unique(), species_colors, alpha=0.25)
 
-county_handles = generate_handles(['Counties'], ['lightpink'])
+county_handles = generate_handles(['Counties'], ['pink'])
 seagrass_handle = generate_handles(['Seagrass Habitat'], ['yellow'])
 mpa_handle = generate_handles(['Marine Protected Areas'], ['magenta'])
 fishing_handle = generate_handles(['Inshore Fishing Areas'], ['orange'])
 
-#
+# Create legend by combining all handles
 handles = species_handles + county_handles + seagrass_handle + mpa_handle + fishing_handle
-labels = ['Counties', 'Seagrass Habitat', 'Marine Protected Areas', 'Inshore Fishing Areas']
+labels = ['Fish Nursery Grounds', 'Counties', 'Seagrass Habitat', 'Marine Protected Areas', 'Inshore Fishing Areas']
 leg = ax.legend(handles, labels, title='Legend', title_fontsize=12,
                  fontsize=10, loc='upper left', frameon=True, framealpha=1)
 
@@ -126,8 +123,8 @@ gridlines.left_labels = True  # turn off the left-side labels
 gridlines.right_labels = False  # turn off the right side labels
 gridlines.bottom_labels = False  # turn off the bottom labels
 
-# Set the extent of the map to zoom in on Ireland
-ax.set_extent([-10, -5, 51.5, 55], crs=ccrs.PlateCarree())
-
-
+# Show completed map
 plt.show()
+
+# Use this code below when you are ready to save as a .png file!
+# myFig.savefig('map.png', bbox_inches='tight', dpi=300)
