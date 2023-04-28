@@ -107,8 +107,10 @@ mpa_handle = generate_handles(['Marine Protected Areas'], ['magenta'])
 fishing_handle = generate_handles(['Inshore Fishing Areas'], ['orange'])
 
 # Create legend by combining all handles
-handles = species_handles + county_handles + seagrass_handle + mpa_handle + fishing_handle
-labels = ['Fish Nursery Grounds', 'Counties', 'Seagrass Habitat', 'Marine Protected Areas', 'Inshore Fishing Areas']
+handles = county_handles + seagrass_handle + mpa_handle + fishing_handle + species_handles
+labels = ['Counties', 'Seagrass Habitat', 'Marine Protected Areas', 'Inshore Fishing Areas',
+          'Blue Whiting', 'Cod', 'Haddock', 'Herring', 'Lemon Sole', 'Mackerel', 'Nephrops', 'Nor Pout', 'Plaice',
+          'Saithe', 'Sand Eel', 'Sole', 'Sprat', 'Whiting']
 leg = ax.legend(handles, labels, title='Legend', title_fontsize=12,
                  fontsize=10, loc='upper left', frameon=True, framealpha=1)
 
