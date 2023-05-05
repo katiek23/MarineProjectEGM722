@@ -1,7 +1,7 @@
 # MarineProjectEGM722
 **EGM722 Python Coding Project: Marine Protected Areas vs Fishing Activity**
 
-Basemap, boundaries and sightings data was provided by Ireland Marine Atlas and OpenDataNI.
+Basemap, boundaries and sightings data was provided by Ireland Marine Atlas, CEFAS and OpenDataNI.
 Step 1: creates a map with locations/ boundaries of protected areas, fishing activity and particular species of interest for further investigation
 
 This project aims to explore the benthic areas around Northern Ireland and Ireland, to plot the presences of seagrass beds, fishng activity and fish sightings in relation to marine protected areas around the Irish Coast. Further, 
