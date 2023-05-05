@@ -15,7 +15,7 @@ import folium
 
 
 
-# generate matplotlib handles to create a legend of the features we put in our map.
+# generate matplotlib handles to create a legend with the features we want to be included in the map
 def generate_handles(labels, colors, edge='k', alpha=1):
     lc = len(colors)  # get the length of the color list
     handles = []
@@ -46,12 +46,12 @@ ni_mpa = gpd.read_file('project data/Marine_Protected_Areas_(MPAs)_within_Northe
 nursery_grounds = gpd.read_file('project data/spawning_grounds_1998_superceded/nursery_grounds_1998_superceded.shp')  # Fish nursery grounds
 fishing_activity = gpd.read_file('project data/Recordset_8763/Recordset_8763Polygon.shp')  # Inshore fishing activity in  Irish Sea
 
-# creating the map
+# creating the map figure
 myFig = plt.figure(figsize=(9, 9))  # create a figure of size 10x10 (inches)
 myCRS = ccrs.UTM(29)  # create a reference system to transform data
 ax = plt.axes(projection=myCRS)   # create an axes object in the figure,
 
-# adding features, outline of Northern Ireland
+# adding the outline of Northern Ireland to the map
 outline_feature = ShapelyFeature(outline['geometry'], myCRS, edgecolor='green', facecolor='burlywood')
 xmin, ymin, xmax, ymax = outline.total_bounds
 ax.add_feature(outline_feature)
@@ -114,7 +114,7 @@ labels = ['Counties', 'Seagrass Habitat', 'Marine Protected Areas', 'Inshore Fis
 leg = ax.legend(handles, labels, title='Legend', title_fontsize=12,
                  fontsize=10, loc='upper left', frameon=True, framealpha=1)
 
-# Create map labels
+# Create map labels and a map title
 ax.set_title('Map of Irish Sea Marine Protected Areas and Fishing Zones'), ax.set_xlabel('Longitude'), ax.set_ylabel('Latitude')
 
 # adding grid lines
